@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    height: 580px;
+    width: 60%;
+    background-color: #D5D0C3;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.navbar i{
+    font-size: 24px;
+    font-weight: 600;
+}
+.hero-section{
+    height: 130px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h1{
+    font-size: 140px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.boxx{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    
+}
+.boxe{
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 5px;
+    padding-block: 10px;
+}
+#span1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#span1 p{
+    font-size: 12px;
+}
+#span1 i{
+    font-size: 18px;
+}
+#span2 img{
+    height: 50px;
+    width: 50px;
+}
+#span2 p{
+    font-size: 10px;
+
+}
+.big-box{
+    height: 230px;
+    width: 100%;
+    display: flex;
+}
+.boxes0{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 10px;
+}
+.boxes0 h6{
+    font-size: 16px;
+}
+.boxes0 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.boxes0 ul li{
+    list-style: none;
+    font-size: 9px;
+    font-weight: 100;
+}
+.boxes0 p{
+    font-size: 9px;
+}
+.boxes1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+.boxes1 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.boxes1 span h4{
+    font-size: 15px;
+    margin-left: 9px;
+}
+.boxes1 span img{
+    height: 80px;
+    width: 270px;
+}
+.boxes1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.boxes1 ul li{
+    list-style: none;
+    font-size: 8px;
+}
+
+
+
+@media (max-width:768px) {
+
+    .container{
+        height: auto;
+        width: 100%;
+    }
+    .box{
+        height: auto;
+        width: 80%;
+        background-color: #D5D0C3;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .navbar i{
+        font-size: 22px;
+    }
+    .hero-section{
+        height: auto;
+        width: 100%;
+    }
+    .hero-section h1{
+        font-size: 80px;
+    }
+    .boxx{
+        height: auto;
+        width: 100%;   
+    }
+    .boxe{
+        height: 100%;
+        width: 25%;
+        justify-content: space-between;
+        padding-inline: 10px;
+        padding-block: 20px;
+    }
+    #span1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #span1 p{
+        font-size: 10px;
+    }
+    #span1 i{
+        font-size: 16px;
+    }
+    #span2 img{
+        height: 40px;
+        width: 40px;
+    }
+    #span2 p{
+        font-size: 9px;
+    
+    }
+    #span2 p br{
+        display: none;
+    }
+    .big-box{
+        height: auto;
+        width: 100%;
+    }
+    .boxes0{
+        height: 100%;
+        width: 50%;
+        padding-inline: 10px;
+        padding-block: 10px;
+    }
+    .boxes0 h6{
+        font-size: 14px;
+    }
+    .boxes0 ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .boxes0 ul li{
+        font-size: 9px;
+    }
+    .boxes0 p{
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    .boxes1{
+        height: 100%;
+        width: 50%;
+        padding-inline: 10px;
+        padding-block: 10px;
+    }
+    .boxes1 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxes1 span h4{
+        font-size: 16px;
+        margin-left: 9px;
+        margin-top: 40px;
+    }
+    .boxes1 span img{
+        height: 70px;
+        width: 180px;
+        margin-top: 60px;
+    }
+    .boxes1 ul{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .boxes1 ul li{
+        list-style: none;
+        font-size: 8px;
+    }
+
+    
+}
